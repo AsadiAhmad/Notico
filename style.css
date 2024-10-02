@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+    
+#toast-container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 25px;
+    left: 25px;
+    z-index: 9999;
+}
+    
+.toast {
+    display: none;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    max-width: 400px;
+    margin-bottom: 10px;
+    padding: 15px;
+    color: #fff;
+    background-color: rgba(22, 22, 23, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     font-family: 'Arial', sans-serif;
+    animation: slideInLeft 0.3s ease-in-out forwards, fadeOut 0.5s ease-in-out forwards 6.7s;
+}
+    
+.toast::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    backdrop-filter: saturate(180%) blur(14px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+    
+.toast-icon-img {
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+}
+    
+.toast-message {
+    flex-grow: 1;
+}
+    
+.toast-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+    
+.toast-exit {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+  
+@keyframes fadeOut { 
+    0% { 
+        opacity: 1; 
+    } 
+  
+    100% { 
+        opacity: 0; 
+    } 
+} 
+  
+@keyframes slideInLeft { 
+    0% { 
+        transform: translateX(-110%); 
+    } 
+  
+    75% { 
+        transform: translateX(10%); 
+    } 
+  
+    100% { 
+        transform: translateX(0%); 
+    } 
+} 
+    

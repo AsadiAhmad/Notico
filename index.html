@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button onclick="showToast('success', 'title', 'message')">
+        success
+    </button>
+    <button onclick="showToast('warning', 'title', 'message')">
+        warning
+    </button>
+    <button onclick="showToast('error', 'title', 'message')">
+        error
+    </button>
+    <div id="toast-container">
+        <div id="toast-template" class="toast">
+            <img id="toast-icon-img" class="toast-icon-img" src="" alt="Toast icon">
+            <div class="toast-message">
+                <div class="toast-title" id="toast-title"></div>
+                <div class="toast-body" id="toast-body"></div>
+            </div>
+            <span class="toast-exit" id="toast-exit">&times;</span>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
