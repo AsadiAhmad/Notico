@@ -25,7 +25,7 @@ Call that function in js :
 showToast.info({});
 ```
 
-### Step3 : Fill parameter as you like
+### Step3 : Fill parameters as you like
 
 You can enter your parameters :
 
