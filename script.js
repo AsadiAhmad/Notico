@@ -12,9 +12,10 @@ function showToast(type, title, message) {
     const toastExit = toast.querySelector('#toast-exit');
   
     const iconMap = {
-      success: './image/success.png',
-      warning: './image/warning.png',
-      error:   './image/error.png'
+        info: './image/info.png',
+        success: './image/success.png',
+        warning: './image/warning.png',
+        error:   './image/error.png'
     };
   
     toastIconImg.src = iconMap[type];
