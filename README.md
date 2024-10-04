@@ -27,3 +27,16 @@ showToast.info({});
 
 ### Step3 : Fill parameter as you like
 
+You can enter your parameters :
+
+```sh
+showToast.success({ title: 'success', message: 'This is an success message', time: 7000 });
+```
+
+in this function you can write the title, massage and time.
+
+if you do not enter the parameters they would be defaults :
+
+title would be the type, massage would be nothing or "" and time would be 7000 ms.
+
+if your time parameter is smaller than 2000 ms then it ignore yours and would be 2000 ms.
