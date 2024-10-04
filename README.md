@@ -11,4 +11,19 @@ A PowerFull and beutifull Library for showing JS Notifications
 
 ### Step2 : Use Function in HTML or JS Code
 
+HTML use :
+
+Create a button like this :
+```sh
+<button onclick="showToast.info({})">info</button>
+```
+
+JS use :
+
+Call that function in js :
+```sh
+showToast.info({});
+```
+
 ### Step3 : Fill parameter as you like
+
