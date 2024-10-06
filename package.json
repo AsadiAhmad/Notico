@@ -1,6 +1,6 @@
 {
   "name": "notico",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Powerful and beautiful Library for showing JS Notifications.",
   "main": "package/notico.js",
   "scripts": {
