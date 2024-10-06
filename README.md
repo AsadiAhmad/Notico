@@ -23,7 +23,7 @@ then add this line into your HTML code :
 <script src="./node_modules/notico/Package/notico.js" defer></script>
 ```
 
-#### Using this CDN :
+#### Using CDN :
 
 you can use this script line for using the CDN :
 
