@@ -9,16 +9,38 @@ A PowerFull and beutifull Library for showing JS Notifications
 
 ### Step1 : Install Library from NPM or using CDN
 
+#### Install the NPM Library :
+
+you can install the npm package this command :
+
+```sh
+npm install notico@1.0.2
+```
+
+then add this line into your HTML code :
+
+```sh
+<script src="./node_modules/notico/Package/notico.js" defer></script>
+```
+
+#### Using this CDN :
+
+you can use this script line for using the CDN :
+
+```sh
+<script src="https://cdn.jsdelivr.net/npm/notico@1.0.2/Package/notico.js" defer></script>
+```
+
 ### Step2 : Use Function in HTML or JS Code
 
-HTML use :
+#### HTML use :
 
 Create a button like this :
 ```sh
 <button onclick="showToast.info({})">info</button>
 ```
 
-JS use :
+#### JS use :
 
 Call that function in js :
 ```sh
