@@ -1,27 +1,30 @@
 {
-    "name": "notico",
-    "version": "1.0.1",
-    "description": "A Powerful and beautiful Library for showing JS Notifications.",
-    "main": "package/notico.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
+  "name": "notico",
+  "version": "1.0.1",
+  "description": "A Powerful and beautiful Library for showing JS Notifications.",
+  "main": "package/notico.js",
+  "scripts": {
+      "test": "jest"
+  },
+  "repository": {
       "type": "git",
       "url": "https://github.com/AsadiAhmad/Notico.git"
-    },
-    "keywords": [
+  },
+  "keywords": [
       "notification",
       "notico",
       "toast",
       "alerts",
       "blur",
       "animation"
-    ],
-    "author": "Ahmad Asadi",
-    "license": "MIT",
-    "bugs": {
+  ],
+  "author": "Ahmad Asadi",
+  "license": "MIT",
+  "bugs": {
       "url": "https://github.com/AsadiAhmad/Notico/issues"
-    },
-    "homepage": "https://github.com/AsadiAhmad/Notico#readme"
-}  
+  },
+  "homepage": "https://github.com/AsadiAhmad/Notico#readme",
+  "devDependencies": {
+      "jest": "^29.7.0"
+  }
+}
