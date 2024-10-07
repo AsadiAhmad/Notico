@@ -1,5 +1,5 @@
 # Notico
-A PowerFull and beutifull Library for showing JS Notifications
+A PowerFull and beautiful Library for showing JS Notifications
 
 <div align=center width="300">
     <img src="./gif/gif.gif" alt="Notification Gif" />
