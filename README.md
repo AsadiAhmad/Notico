@@ -47,7 +47,7 @@ node -v
 npm -v
 ```
 
-If you get a version number then you have successfully installed those library.
+If you see version numbers, the installation was successful.
 
 #### Step4 : Install Notico Library
 
@@ -104,12 +104,16 @@ showToast.info({});
 You can enter your parameters :
 
 ```sh
-showToast.success({ title: 'success', message: 'This is an success message', time: 7000 });
+showToast.success({
+    title: 'success',
+    message: 'This is an success message',
+    time: 7000
+});
 ```
 
 In this function you can write the title, message and time.
 
-If you do not enter the parameters they would be defaults :
+If no parameters are provided, default values will be used. :
 
 Title would be the type, message would be nothing or "" and time would be 7000 ms.
 
