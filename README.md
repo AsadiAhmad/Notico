@@ -29,7 +29,7 @@ Ensure Node.js and npm are installed on your system.
 
 #### Step 1 : Download the Nodejs
 
-visit [Nodejs website][https://nodejs.org/] and download latest LTS (Long Time Support) version 
+visit [Nodejs website](https://nodejs.org/) and download latest LTS (Long Time Support) version 
 
 #### Step 2 : Install Nodejs and NPM
 
