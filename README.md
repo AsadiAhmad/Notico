@@ -29,7 +29,7 @@ Ensure Node.js and npm are installed on your system.
 
 #### Step 1 : Download the Nodejs
 
-visit [Nodejs website](https://nodejs.org/) and download latest LTS (Long Time Support) version 
+Visit [Nodejs website](https://nodejs.org/) and download latest LTS (Long Time Support) version 
 
 #### Step 2 : Install Nodejs and NPM
 
@@ -37,7 +37,7 @@ Just run the installer and be sure check install Nodejs and NPM.
 
 #### Step 3 : Verify the installation
 
-you can check if you install Nodejs and npm correctly by these commands :
+You can check if you install Nodejs and npm correctly by these commands :
 
 ```sh
 node -v
@@ -51,19 +51,19 @@ If you see version numbers, the installation was successful.
 
 #### Step4 : Install Notico Library
 
-you can install the npm package this command (install latest version):
+You can install the npm package this command (install latest version):
 
 ```sh
 npm install notico
 ```
 
-or actually using this one for specific version :
+Or actually using this one for specific version :
 
 ```sh
 npm install notico@1.0.2
 ```
 
-then add this line into your HTML code :
+Then add this line into your HTML code :
 
 ```sh
 <script src="./node_modules/notico/Package/notico.js" defer></script>
@@ -73,7 +73,7 @@ Note: if you have a Nodejs Project for web applications it recommended to instal
 
 ### Via CDN (easy to use):
 
-you can use this script line for using the CDN :
+You can use this script line for using the CDN :
 
 ```sh
 <script src="https://cdn.jsdelivr.net/npm/notico@1.0.2/Package/notico.js" defer></script>
