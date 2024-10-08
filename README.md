@@ -1,5 +1,5 @@
 # Notico
-A PowerFul and beautiful Library for showing JS Notifications
+A Powerful and beautiful Library for showing JS Notifications
 
 <div align=center width="300">
     <img src="./gif/gif.gif" alt="Notification Gif" />
@@ -17,13 +17,47 @@ A PowerFul and beautiful Library for showing JS Notifications
 * HTML (hidden in JavaScript) : Structure of the notification built with HTML
 * CSS (hidden in JavaScript) : Styles and blur effect of the notification built with CSS
 
-## Tutorial
+## Installation
 
-### Step1 : Install Library from NPM or using CDN
+### Via NPM (better performance) :
 
-#### Install the NPM Library :
+#### Prerequisites :
 
-you can install the npm package this command :
+Ensure Node.js and npm are installed on your system.
+
+* If you already have Node.js and npm installed, skip to Step 4. 
+
+#### Step 1 : Download the Nodejs
+
+visit (Nodejs website)[https://nodejs.org/] and download latest LTS (Long Time Support) version 
+
+#### Step 2 : Install Nodejs and NPM
+
+Just run the installer and be sure check install Nodejs and NPM.
+
+#### Step 3 : Verify the installation
+
+you can check if you install Nodejs and npm correctly by these commands :
+
+```sh
+node -v
+```
+
+```sh
+npm -v
+```
+
+If you get a version number then you have successfully installed those library.
+
+#### Step4 : Install Notico Library
+
+you can install the npm package this command (install latest version):
+
+```sh
+npm install notico
+```
+
+or actually using this one for specific version :
 
 ```sh
 npm install notico@1.0.2
@@ -35,7 +69,9 @@ then add this line into your HTML code :
 <script src="./node_modules/notico/Package/notico.js" defer></script>
 ```
 
-#### Using CDN :
+Note: if you have a Nodejs Project for web applications it recommended to install this library with this way because this way has better performance than the other way.
+
+### Via CDN (easy to use):
 
 you can use this script line for using the CDN :
 
@@ -43,7 +79,11 @@ you can use this script line for using the CDN :
 <script src="https://cdn.jsdelivr.net/npm/notico@1.0.2/Package/notico.js" defer></script>
 ```
 
-### Step2 : Use Function in HTML or JS Code
+Note: If you dont work with Nodejs and NPM then use this way.
+
+## Tutorial
+
+### Step 1 : Use Function in HTML or JS Code
 
 #### HTML use :
 
@@ -59,7 +99,7 @@ Call that function in js :
 showToast.info({});
 ```
 
-### Step3 : Fill parameters as you like
+### Step 2 : Fill parameters as you like
 
 You can enter your parameters :
 
@@ -67,10 +107,14 @@ You can enter your parameters :
 showToast.success({ title: 'success', message: 'This is an success message', time: 7000 });
 ```
 
-in this function you can write the title, massage and time.
+In this function you can write the title, message and time.
 
-if you do not enter the parameters they would be defaults :
+If you do not enter the parameters they would be defaults :
 
-title would be the type, massage would be nothing or "" and time would be 7000 ms.
+Title would be the type, message would be nothing or "" and time would be 7000 ms.
 
-if your time parameter is smaller than 2000 ms then it ignore yours and would be 2000 ms.
+If your time parameter is smaller than 2000 ms then it ignore yours and would be 2000 ms.
+
+## License
+
+Notico is licensed under the MIT License.
