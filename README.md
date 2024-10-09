@@ -83,7 +83,7 @@ Note: If you dont work with Nodejs and NPM then use this way.
 
 ## Tutorial
 
-### Step 1 : Use Function in HTML or JS Code
+### Use Function in HTML or JS Code
 
 #### HTML use :
 
@@ -99,7 +99,7 @@ Call that function in js :
 showToast.info({});
 ```
 
-### Step 2 : Fill parameters as you like
+## Options
 
 You can enter your parameters :
 
